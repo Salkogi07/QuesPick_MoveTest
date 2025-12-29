@@ -43,7 +43,7 @@ namespace Salkogi07.CoreSystem
             if(comp)
                 return comp;
             
-            Debug.LogWarning($"{transform.parent.name}에서 {typeof(T)} 컴포넌트를 찾지 못했습니다.");
+            Debug.LogWarning($"'{transform.parent.name}'에서 '{typeof(T)}'컴포넌트를 찾지 못했습니다.");
             return null;
         }
 
