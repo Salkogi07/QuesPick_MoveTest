@@ -7890,6 +7890,7 @@ MonoBehaviour:
     sprite: {fileID: 21300000, guid: a6aa40b7f3d05444cbdc7baff56e24c3, type: 3}
     alpha: 1
   fadeSpeed: 0.7
+  currentState: 0
 --- !u!114 &1079754764
 MonoBehaviour:
   m_ObjectHideFlags: 0
